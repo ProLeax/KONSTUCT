@@ -16,21 +16,18 @@ body{
     font-family: var(--fontO);
 }
 .container{
-    width: 100%;
     max-width: 941px;
     margin: 0 auto;
 }
 
 
 .header {
+    max-width: 1440px;
+    margin: 0 auto;
     background-image: url(../img/backgraund.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    width: 1440px;
-    height:100%;
-    margin: 0 auto;
-    padding: 41px 0 71px;
+
 }
 .header__img{
     display: flex;
@@ -40,7 +37,7 @@ body{
     margin: 0 auto;
 }
 .header__text-center {
-    margin: 376px 0 241px;
+    margin: 317px 0 221px;
     align-items: center;
 }
 .header__h1 {
@@ -119,7 +116,7 @@ body{
     padding-bottom: 115px;
 }
 .our-story {
-
+    margin: 0 auto;
 }
 
 .story__title {
